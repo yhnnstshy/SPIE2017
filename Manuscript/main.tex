@@ -1,0 +1,103 @@
+\documentclass[]{spie}  %>>> use for US letter paper
+%\documentclass[a4paper]{spie}  %>>> use this instead for A4 paper
+%\documentclass[nocompress]{spie}  %>>> to avoid compression of citations
+
+\renewcommand{\baselinestretch}{1.0} % Change to 1.65 for double spacing
+ 
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Convolutional Neural Network Based Deep-learning Architecture for Prostate Cancer Detection on Multiparametric Magnetic Resonance Images}
+
+\author[a]{Yohannes K. Tsehay, Nathan S. Lay, Holger R. Roth, Xiaosong Wang, Jin Tae Kwak}
+\author[b]{Baris I. Turkbey, Peter A. Pinto}
+\author[c]{Brad J. Wood}
+\author[a]{Ronald M. Summers}
+\affil[a]{Imaging Biomarkers and Computer-Aided Diagnosis Laboratory,  Department of Radiology and Imaging Science, National Institute of Health,  Clinical Center, Bethesda, MD 20892}
+\affil[b]{Urologic Oncology Branch, National Cancer Institute, National Institute of Health, Bethesda,
+MD 20892, USA}
+\affil[c]{Center for Interventional Oncology, National Cancer Institute, National Institute of Health, Bethesda, MD 20892, USA}
+
+\authorinfo{Further author information: (Send correspondence to Yohannes K Tsehay)\\Yohannes K Tsehay: E-mail: yohannes.tsehay@nih.gov, Telephone: 1 301 402 5486\\  Nathan S Lay: E-mail: nathan.lay@nih.gov, Telephone: 1 301 451 8363}
+
+% Option to view page numbers
+\pagestyle{empty} % change to \pagestyle{plain} for page numbers   
+\setcounter{page}{301} % Set start page numbering at e.g. 301
+ 
+\begin{document} 
+\maketitle
+%Abstract%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+\input{Abstract}
+\end{abstract}
+
+% Include a list of keywords after the abstract 
+\keywords{Computer-Aided Diagnosis, Holistically-nested Edge Detection, CNN, HED}
+
+%Intro.%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{INTRODUCTION}
+\label{sec:intro}
+\input{Introduction}
+%Materials%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Materials and Methods}
+\subsection{Patient Cohort}
+\label{ssec:patients}
+\input{PatientCohorts}
+%Pre-process%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Image Pre-processing Step}
+\label{ssec:pre-process}
+\input{Image_Pre-processing}
+
+%CNN Architecture%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{CNN Architecture}
+\label{ssec:cnn}
+\input{CNN_Architecture.tex}
+
+%Analysis%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Analysis}
+\label{ssec:analysis}
+
+\subsubsection{Cross-validation}
+\label{sssec:validation}
+\input{Cross-validation}
+
+\subsubsection{ROC Analysis}
+\label{sssec:ROC}
+\input{ROCAnalysis}
+
+\subsubsection{FROC Analysis}
+\label{sssec:FROC}
+\input{FROCAnalysis}
+
+\subsubsection{Comparison}
+\label{sssec:compare}
+\input{Comparison}
+
+\subsubsection{Visualization}
+\label{sssec:vis}
+\input{Visualization}
+
+%Results %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results}
+\label{sec:results}
+\input{Results}
+
+%Discussion %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Discussion}
+\label{sec:discussion}
+\input{Discussion}
+%Conclusion %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusion}
+\label{sec:conclusion}
+\input{Conclusion}
+\acknowledgments      
+ 
+This work was supported by the Intramural Research Programs of the National Institutes of Health, Clinical Center and National Cancer Institute.   
+
+% References
+\bibliography{report} % bibliography data in report.bib
+\bibliographystyle{spiebib} % makes bibtex use spiebib.bst
+
+\end{document} 
+

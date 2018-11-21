@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: spiebib.bst
+Database file #1: report.bib
+Repeated entry---line 248 of file report.bib
+ : @inproceedings{cheng2014atlas
+ :                              ,
+I'm skipping whatever remains of this entry
+You've used 11 entries,
+            1993 wiz_defined-function locations,
+            579 strings with 6627 characters,
+and the built_in function-call counts, 4089 in all, are:
+= -- 375
+> -- 220
+< -- 0
++ -- 77
+- -- 66
+* -- 385
+:= -- 566
+add.period$ -- 11
+call.type$ -- 11
+change.case$ -- 11
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 167
+empty$ -- 328
+format.name$ -- 66
+if$ -- 953
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 11
+newline$ -- 36
+num.names$ -- 11
+pop$ -- 19
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 150
+stack$ -- 0
+substring$ -- 344
+swap$ -- 106
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 41
+width$ -- 13
+write$ -- 99
+(There was 1 error message)

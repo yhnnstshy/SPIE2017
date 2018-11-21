@@ -1,0 +1,63 @@
+\begin{thebibliography}{10}
+
+\bibitem{jemal2005cancer}
+Jemal, A., Murray, T., Ward, E., Samuels, A., Tiwari, R.~C., Ghafoor, A.,
+  Feuer, E.~J., and Thun, M.~J., ``Cancer statistics, 2005,'' {\em CA: a cancer
+  journal for clinicians}~{\bf 55}(1),  10--30 (2005).
+
+\bibitem{costa2015mr}
+Costa, D.~N., Pedrosa, I., Donato~Jr, F., Roehrborn, C.~G., and Rofsky, N.~M.,
+  ``Mr imaging--transrectal us fusion for targeted prostate biopsies:
+  implications for diagnosis and clinical management,'' {\em
+  Radiographics}~{\bf 35}(3),  696--708 (2015).
+
+\bibitem{cornud2012value}
+Cornud, F., Delongchamps, N., Mozer, P., Beuvon, F., Schull, A., Muradyan, N.,
+  and Peyromaure, M., ``Value of multiparametric mri in the work-up of prostate
+  cancer,'' {\em Current urology reports}~{\bf 13}(1),  82--92 (2012).
+
+\bibitem{ruprecht2012mri}
+Ruprecht, O., Weisser, P., Bodelle, B., Ackermann, H., and Vogl, T.~J., ``Mri
+  of the prostate: interobserver agreement compared with histopathologic
+  outcome after radical prostatectomy,'' {\em European journal of
+  radiology}~{\bf 81}(3),  456--460 (2012).
+
+\bibitem{carlsson2012prostate}
+Carlsson, S., Vickers, A.~J., Roobol, M., Eastham, J., Scardino, P., Lilja, H.,
+  and Hugosson, J., ``Prostate cancer screening: facts, statistics, and
+  interpretation in response to the us preventive services task force review,''
+  {\em Journal of Clinical Oncology}~{\bf 30}(21),  2581--2584 (2012).
+
+\bibitem{kwak2015automated}
+Kwak, J.~T., Xu, S., Wood, B.~J., Turkbey, B., Choyke, P.~L., Pinto, P.~A.,
+  Wang, S., and Summers, R.~M., ``Automated prostate cancer detection using
+  t2-weighted and high-b-value diffusion-weighted magnetic resonance imaging,''
+  {\em Medical physics}~{\bf 42}(5),  2368--2378 (2015).
+
+\bibitem{litjens2014computer}
+Litjens, G., Debats, O., Barentsz, J., Karssemeijer, N., and Huisman, H.,
+  ``Computer-aided detection of prostate cancer in mri,'' {\em IEEE
+  transactions on medical imaging}~{\bf 33}(5),  1083--1092 (2014).
+
+\bibitem{wang2014computer}
+Wang, S., Burtt, K., Turkbey, B., Choyke, P., and Summers, R.~M., ``Computer
+  aided-diagnosis of prostate cancer on multiparametric mri: a technical review
+  of current research,'' {\em BioMed research international}~{\bf 2014} (2014).
+
+\bibitem{lecun2015deep}
+LeCun, Y., Bengio, Y., and Hinton, G., ``Deep learning,'' {\em Nature}~{\bf
+  521}(7553),  436--444 (2015).
+
+\bibitem{cheng2014atlas}
+Cheng, R., Turkbey, B., Gandler, W., Agarwal, H.~K., Shah, V.~P., Bokinsky, A.,
+  McCreedy, E., Wang, S., Sankineni, S., Bernardo, M., et~al., ``Atlas based
+  aam and svm model for fully automatic mri prostate segmentation,'' in [{\em
+  2014 36th Annual International Conference of the IEEE Engineering in Medicine
+  and Biology Society}{\nolinebreak\hspace{0.1em}]},   2881--2585, IEEE (2014).
+
+\bibitem{xie2015holistically}
+Xie, S. and Tu, Z., ``Holistically-nested edge detection,'' in [{\em
+  Proceedings of the IEEE International Conference on Computer
+  Vision}{\nolinebreak\hspace{0.1em}]},   1395--1403 (2015).
+
+\end{thebibliography}
